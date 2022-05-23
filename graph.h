@@ -6,6 +6,14 @@
 // Add everything you need in between the "ifndef and "endif" statements.
 // Do not put anything outside those statements
 
+#include <iostream>
+#include <list>
+
+using namespace std;
+
+class Grapth{
+
+};
 
 
 
