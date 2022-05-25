@@ -83,7 +83,6 @@ class Graph {
         for(int i=0;i<vertex[vertex1].size();i++) {
 
             if(vertex[vertex1][i].get_e() == vertex2) { // if we found it is equal to vertex2 then it is connected 
-              
                 return vertex[vertex1][i].get_w(); // return weight  
             }
           

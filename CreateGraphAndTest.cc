@@ -84,20 +84,20 @@ int graphTestDriver(int argc, char **argv) {
             
             cout<<num1<<" "<<num2<<": "<<"connected "<<G.connected(num1,num2)<<endl; // otherwise we print it 
         }
-        
-        
     }
         
     return 0;
 }
 
 int main(int argc, char **argv) {
-    if (argc != 3) {
+
+  if (argc != 3) {
 		cout << "Usage: " << argv[0] << " <GRAPH_File>" << "<ADJACENCY_QUERYFILE>" << endl;
-		return 0;
-    }
+	  return 0;
+  }
 
-    graphTestDriver(argc, argv);
+  graphTestDriver(argc, argv);
 
-    return 0;
+  return 0;
+  
 }
