@@ -9,7 +9,7 @@ using namespace std;
 
 int graphTestDriver(int argc, char **argv) {
 
-  // TODO: Begin your code here. Feel free to add any helper functions or classes you need,
+  //Begin your code here. Feel free to add any helper functions or classes you need,
   // as long as we only have to call this function to run the specified assignment.
   string FILENAME = argv[1]; // filename is argv[1] string 
   ifstream FILE(FILENAME);
