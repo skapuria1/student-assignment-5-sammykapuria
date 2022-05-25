@@ -86,7 +86,7 @@ int graphTestDriver(int argc, char **argv) {
         }
     }
         
-    return 0;
+  return 0;
 }
 
 int main(int argc, char **argv) {
@@ -99,5 +99,5 @@ int main(int argc, char **argv) {
   graphTestDriver(argc, argv);
 
   return 0;
-  
+
 }
