@@ -31,17 +31,14 @@ int graphTestDriver(int argc, char **argv) {
     vector<string> V; // create a vector of strings 
     for(int i=0;i<help.length();i++) { // go through a vector 
          
-        string s;
-        while(help[i] != ' ' && i < help.length()) { // as long as it is not whitespace or end 
+      string s;
+      while(help[i] != ' ' && i < help.length()) { // as long as it is not whitespace or end 
              
-            s.push_back(help[i]); // add it to a string 
-             
-             
-            i++;
-        }
+        s.push_back(help[i]); // add it to a string
+        i++;
+      }
          
-        V.push_back(s); // string in the end is a number as a string so we push it back to V 
-
+      V.push_back(s); // string in the end is a number as a string so we push it back to V 
     }
 
         int num = stoi(V[0]); // convert first number from a string to int 
